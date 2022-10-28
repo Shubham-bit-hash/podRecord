@@ -16,8 +16,8 @@ Pip install playsound==1.2
   cd <folder name>
 ```
 and run by,
-    ```sh
+```sh
     python Recorder.py
-    ```
+ ```
 #step3: 
     now you can able to record voice , and files which are store at place where the Recorder.py file is stored.  
