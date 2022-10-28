@@ -1,4 +1,4 @@
-#arti's Voice recorder
+# Voice recorder
 #Import necessary modules
 #from turtle import bgcolor
 import sounddevice as sd
@@ -80,7 +80,7 @@ def select_file():
 
 voice_rec = Tk()
 voice_rec.geometry("360x200")
-voice_rec.title("Aarti's Voice Recorder")
+voice_rec.title("Voice Recorder")
 voice_rec.config(bg="#800080")
 #Create a queue to contain the audio data
 q = queue.Queue()
@@ -88,7 +88,7 @@ q = queue.Queue()
 recording = False#107dc2
 file_exists = False
 #Label to display app title in Python Voice Recorder Project
-title_lbl  = Label(voice_rec, text="Aarti's Voice Recorder", bg="#107dc2").grid(row=0, column=0, columnspan=3)
+title_lbl  = Label(voice_rec, text=" Voice Recorder", bg="#107dc2").grid(row=0, column=0, columnspan=3)
  
 #Button to record audio
 record_btn = Button(voice_rec, text="Record Audio", bg='#FF7F7F',command=lambda m=1:threading_rec(m))
