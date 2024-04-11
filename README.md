@@ -66,7 +66,7 @@ and run by,
 Recorded audio files and their transcriptions are stored in a SQLite database named `credentials.db` in the `Outputs` folder.
 
 # License
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Shubham-bit-hash/podRecord/blob/main/LICENSE.txt) file for details.
 
 
 
